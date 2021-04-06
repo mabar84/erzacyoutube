@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  padding: 20px 70px 20px 32px;
+  display: flex;
+  align-items: center;
+}
+.menu-button {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 20px;
+  height: 17px;
+  border: none;
+  margin-right: 28px;
+  cursor: pointer;
+}
+.menu-line {
+  display: block;
+  background: #1f2022;
+  width: 20px;
+  height: 3px;
+  border-radius: 20px;
+}
+.logo {
+  margin-right: 59px;
+}
+.input-group {
+  background: #ebebeb;
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 17px;
+  align-items: center;
+  min-width: 830px;
+  width: 50%;
+}
+.input-search {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 23px;
+  background-color: transparent;
+  border: none;
+}
+.button-search {
+  padding: 0;
+  width: 19px;
+  height: 19px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.icon-search {
+  fill: black;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.icon-video {
+  opacity: 0.24;
+}
+.icon-video:hover {
+  opacity: 0.8;
+}
+.icon-apps {
+  opacity: 0.24;
+}
+.icon-apps:hover {
+  opacity: 0.8;
+}
+.icon-notification {
+  opacity: 0.24;
+}
+.icon-notification:hover {
+  opacity: 0.8;
+}
+.icons-link {
+  text-decoration: none;
+}
+.icons-link:not(:last-child) {
+  margin-right: 50px;
+}
+.user {
+  margin-left: 45px;
+}
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
